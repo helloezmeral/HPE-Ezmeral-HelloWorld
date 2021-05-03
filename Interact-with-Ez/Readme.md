@@ -1,5 +1,4 @@
 # Ways to Interact with Ezmeral K8s
----
 Last edit: May 2021
 
 # Summary
