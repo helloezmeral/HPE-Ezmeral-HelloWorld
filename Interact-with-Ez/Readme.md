@@ -7,6 +7,9 @@ Last edit: May 2021
 ---
 # 1. kubectl with plugins (kubectl-hpecp)
 ## Resources
+- https://docs.containerplatform.hpe.com/53/reference/kubernetes/using-kubernetes/Using_the_HPE_Kubectl_Plugin.html?hl=kubectl
+
+## Getting Started
 
 
 ---
