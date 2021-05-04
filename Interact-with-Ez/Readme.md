@@ -79,6 +79,7 @@ kubectl delete  KubeDirectorCluster codeserver
 ## Resources
 - https://docs.containerplatform.hpe.com/53/reference/accessing-the-applications/API_Access.html
 - https://github.com/HewlettPackard/hpe-notebooks/tree/master/HPECPAPI
+- https://github.com/bluedatainc/solutions/tree/master/APIs
 
 ## Getting Started
 ### HPECPAPI notes
