@@ -61,7 +61,7 @@ hpeadmin@awb51:~/myAWB/app01/deliverables$ export KUBECONFIG=./kubeconfig
 hpeadmin@awb51:~/myAWB/app01/deliverables$ kubectl get pods
 
 save the kubeconfig file
-export=KUBECONFIG="kubeconfig"
+export KUBECONFIG="kubeconfig"
 kubectl get pods
 ```
 
