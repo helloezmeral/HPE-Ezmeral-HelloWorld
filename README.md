@@ -8,3 +8,10 @@ ln -s /bd-fs-mnt/project_repo/ project_repo_ln
 unlink project_repo_ln
 
 ```
+
+## Embedded Datafabric (MapR)
+
+```
+cat /opt/bluedata/mapr/conf/mapr-pass
+cat /opt/bluedata/mapr/conf/mapr-admin-pass
+```
