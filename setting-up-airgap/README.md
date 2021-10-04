@@ -1,4 +1,7 @@
 # Setting Up Airgap for ECP
+
+https://docs.containerplatform.hpe.com/53/reference/deploying-the-platform/phase-4/configuring-air-gap-K8s-host-settings.html
+
 container registry is a must to host the container images. For rpm repo, as long as you can access the files via http or https should be ok, not necessarily be a proper centos yum repo server. Below are the rough steps:
 
 Task 1: Container Registry Installation Steps\
