@@ -14,13 +14,13 @@ l Step 9 tar -vxf images.tar\
 l Step 10 cp k8s_container_metadata.txt publish.sh images\
 l Step 11 cd images\
 l Step 12 Harbor create project “ecp531”\
-l Step 13 ./publish.sh load k8s_containet_metadata.txt harbor.local/ecp531\
+l Step 13 ./publish.sh load k8s_containet_metadata.txt harbor.local/ecp531
 
 Task 2: RPM Server Installation Steps\
 l Step 1 download https://bdk8s.s3.us-east-2.amazonaws.com/5.3/3031/k8s-rpms.tar \
 l Step 2 install httpd server to Harbor server change default port to 18080\
 l Step 3 chown 777 policy for httpd /\
-l Step 4 check http://<harbor-server-ip>:18080 can download rpm files\
+l Step 4 check http://<harbor-server-ip>:18080 can download rpm files
 
 ===
 1. Install Docker
