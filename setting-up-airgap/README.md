@@ -52,10 +52,12 @@ docker ps # (check container status)
 wget https://ezmeral-platform-releases.s3.amazonaws.com/5.3.1/3043/images/k8s_container_metadata.txt
 wget https://ezmeral-platform-releases.s3.amazonaws.com/5.3.1/3043/images/publish.sh
 wget https://ezmeral-platform-releases-seoul.s3.ap-northeast-2.amazonaws.com/5.3.1/3043/images/images-07122021.tar
-tar -vxf images-07122021.tar
+tar -vxf images-07122021.tar # this may take longer time to finish
+nohup tar -vxf images-07122021.tar & # if you are running with putty, this can run the command in background and you are free to get a coffee break.
+# or Press Ctrl - A then Ctrl - D . This will "detach" your screen session but leave your processes running.
   
 # Move the Image to Harbor Image folder
-cp k8s_container_metadata.txt publish.sh harbor/images
+cp k8s_container_metadata.txt publish.sh harbor/images 
 cd harbor/images
 ```
  
