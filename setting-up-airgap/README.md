@@ -52,7 +52,7 @@ docker ps # (check container status)
 wget https://ezmeral-platform-releases.s3.amazonaws.com/5.3.1/3043/images/k8s_container_metadata.txt
 wget https://ezmeral-platform-releases.s3.amazonaws.com/5.3.1/3043/images/publish.sh
 wget https://ezmeral-platform-releases-seoul.s3.ap-northeast-2.amazonaws.com/5.3.1/3043/images/images-07122021.tar
-tar -vxf images.tar
+tar -vxf images-07122021.tar
   
 # Move the Image to Harbor Image folder
 cp k8s_container_metadata.txt publish.sh harbor/images
