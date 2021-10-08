@@ -61,6 +61,7 @@ cp k8s_container_metadata.txt publish.sh images
 cd images
 # Create project ecp531
 ./publish.sh load k8s_containet_metadata.txt harbor.local/ecp531
+# ./publish.sh load k8s_containet_metadata.txt registry.hpeilab.com/ecp531
 ```
  
 ## Possible Error
