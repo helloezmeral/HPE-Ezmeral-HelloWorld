@@ -57,8 +57,10 @@ nohup tar -vxf images-07122021.tar & # if you are running with putty, this can r
 # or Press Ctrl - A then Ctrl - D . This will "detach" your screen session but leave your processes running.
   
 # Move the Image to Harbor Image folder
-cp k8s_container_metadata.txt publish.sh harbor/images 
-cd harbor/images
+cp k8s_container_metadata.txt publish.sh images 
+cd images
+# Create project ecp531
+./publish.sh load k8s_containet_metadata.txt harbor.local/ecp531
 ```
  
 ## Possible Error
