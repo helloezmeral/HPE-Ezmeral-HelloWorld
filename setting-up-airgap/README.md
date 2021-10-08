@@ -43,7 +43,7 @@ sudo ./install.sh
 # and you will see
 #  ----Harbor has been installed and started successfully.----
 docker ps # (check container status)
-# go to ip:80 to check harbor is running
+# go to ip:80 to check harbor is running with admin\password
 ```
 ### sample harbor.yml
 - https://github.com/helloezmeral/HPE-Ezmeral-HelloWorld/blob/main/setting-up-airgap/harbor.yml
