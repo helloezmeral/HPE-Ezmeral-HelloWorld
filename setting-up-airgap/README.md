@@ -30,6 +30,9 @@ l Step 4 check http://<harbor-server-ip>:18080 can download rpm files
 ```
 sudo curl -fsSL https://get.docker.com -o get-docker.sh
 DRY_RUN=0 sh ./get-docker.sh
+  export PATH=/usr/bin:$PATH
+  export DOCKER_HOST=unix:///run/user/1000/docker.sock
+  
 sudo apt install docker-compose
 ```
 2. Install Harbor
