@@ -37,7 +37,8 @@ sudo apt install docker-compose
 ```
 2. Install Harbor
 ```
-wget https://github.com/goharbor/harbor/releases/download/v2.2.2/harbor-offline-installer-v2.2.2.tgz & tar -vxf harbor-offline-installer-v2.2.2.tgz
+wget https://github.com/goharbor/harbor/releases/download/v2.2.2/harbor-offline-installer-v2.2.2.tgz
+tar -vxf harbor-offline-installer-v2.2.2.tgz
 cd harbor
 cp harbor.yml.template harbor.yml
 nano harbor.yml
