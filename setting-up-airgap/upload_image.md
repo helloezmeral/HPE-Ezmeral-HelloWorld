@@ -28,6 +28,7 @@ bluedata/metricbeat:6.6.5-2.0
 quay.io/coreos/kube-state-metrics:v1.9.6
 
 MLOps
+
 =================
 bluedata/kd-notebook:1.15
 bluedata/kd-api-serving:1.3
@@ -36,6 +37,7 @@ bluedata/hpecp-dtap:1.6.7
 
 
 Spark (You don't have the needed permissions to perform this operation)
+
 =============
 gcr.io/mapr-252711/spark-hs-2.4.4:202009090453C
 gcr.io/mapr-252711/tenantcli-6.1.0:202009090453C
