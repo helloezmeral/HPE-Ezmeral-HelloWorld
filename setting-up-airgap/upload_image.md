@@ -14,31 +14,24 @@ docker push ${registry}/${image}
 
 
 Full list
-
-=====
-
-bluedata/hpecp-agent:1.1.5
-bluedata/hpecp-bootstrap-hpecp-agent:1.1.5-1
-bluedata/hpecp-bootstrap-hpecp-monitoring:6.6.5-6.0
-bluedata/hpecp-bootstrap-kube-state-metrics:1.9.6-1
-bluedata/hpecp-bootstrap-kubedirector:1.7.2-1
-bluedata/hpecp-bootstrap-tools:0.4
-bluedata/kubedirector:0.5.3
-bluedata/metricbeat:6.6.5-2.0
-quay.io/coreos/kube-state-metrics:v1.9.6
+- bluedata/hpecp-agent:1.1.5
+- bluedata/hpecp-bootstrap-hpecp-agent:1.1.5-1
+- bluedata/hpecp-bootstrap-hpecp-monitoring:6.6.5-6.0
+- bluedata/hpecp-bootstrap-kube-state-metrics:1.9.6-1
+- bluedata/hpecp-bootstrap-kubedirector:1.7.2-1
+- bluedata/hpecp-bootstrap-tools:0.4
+- bluedata/kubedirector:0.5.3
+- bluedata/metricbeat:6.6.5-2.0
+- quay.io/coreos/kube-state-metrics:v1.9.6
 
 MLOps
-
-=================
-bluedata/kd-notebook:1.15
-bluedata/kd-api-serving:1.3
-bluedata/kd-api-serving:1.4
-bluedata/hpecp-dtap:1.6.7
+- bluedata/kd-notebook:1.15
+- bluedata/kd-api-serving:1.3
+- bluedata/kd-api-serving:1.4
+- bluedata/hpecp-dtap:1.6.7
 
 
 Spark (You don't have the needed permissions to perform this operation)
-
-=============
-gcr.io/mapr-252711/spark-hs-2.4.4:202009090453C
-gcr.io/mapr-252711/tenantcli-6.1.0:202009090453C
-gcr.io/mapr-252711/hivemeta-2.3:202007091835C
+- gcr.io/mapr-252711/spark-hs-2.4.4:202009090453C
+- gcr.io/mapr-252711/tenantcli-6.1.0:202009090453C
+- gcr.io/mapr-252711/hivemeta-2.3:202007091835C
