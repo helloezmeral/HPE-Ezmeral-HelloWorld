@@ -81,3 +81,11 @@ sudo ./install.sh
 # DRY_RUN=0 sh ./get-docker.sh
 ```
 
+
+  # Possible solution
+  https://docs.docker.com/registry/insecure/
+  
+  setup the registry with this configure
+  
+  
+  
