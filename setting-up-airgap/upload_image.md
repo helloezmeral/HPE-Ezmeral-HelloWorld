@@ -1,4 +1,5 @@
 # setup registry to azure
+<img width="633" alt="image" src="https://user-images.githubusercontent.com/72959956/143213838-2b1f74dc-b7a9-45eb-9236-b70dc7c8011c.png">
 
 
 ```
