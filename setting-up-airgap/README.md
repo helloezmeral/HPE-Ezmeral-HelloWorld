@@ -87,5 +87,29 @@ sudo ./install.sh
   
   setup the registry with this configure
   
+# Setting up Azure registry
+Full list
+
+- bluedata/hpecp-agent:1.1.5
+- bluedata/hpecp-bootstrap-hpecp-agent:1.1.5-1
+- bluedata/hpecp-bootstrap-hpecp-monitoring:6.6.5-6.0
+- bluedata/hpecp-bootstrap-kube-state-metrics:1.9.6-1
+- bluedata/hpecp-bootstrap-kubedirector:1.7.2-1
+- bluedata/hpecp-bootstrap-tools:0.4
+- bluedata/kubedirector:0.5.3
+- bluedata/metricbeat:6.6.5-2.0
+- quay.io/coreos/kube-state-metrics:v1.9.6
+  
+MLOps
+
+- bluedata/kd-notebook:1.15
+- bluedata/kd-api-serving:1.3
+- bluedata/kd-api-serving:1.4
+- bluedata/hpecp-dtap:1.6.7
+
+  
+  
+  
+  
   
   
